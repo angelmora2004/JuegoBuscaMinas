@@ -196,7 +196,7 @@ namespace JuegoBuscaMinas
                         if (bombas > 0)
                         {
                             botones[i, j].Text = bombas.ToString(); //mostrando la cantidad de bombas
-                            botones[i, j].ForeColor = Color.Green;
+                            botones[i, j].ForeColor = Color.BlueViolet;
                         }
 
                     }
